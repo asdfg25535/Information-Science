@@ -1,60 +1,82 @@
-html,body,table{
-    height: 95%;
-    width: 95%;
-  }
-  table{
-     border:3px solid white
-  }
-  div{
-    text-align:center;
-  }
-  #header,#footer{
-    background-color:aqua;
-    color:white;
-    height: 10%;
-  }
-  #navigation{
-    background-color:aliceblue;
-    height: 10%;
-    width: 100%;
-    display:flex;
-    vertical-align: middle;
-  }
-  #navigation>div{
-    display: inline;
-    height: 100%;
-    width: calc(100% / 3);
-    font-weight: normal;
-    font-size: 40px;
-    text-align: center;
-    vertical-align: middle;
-  }
-  #navigation>div:hover{
-    background-color:white;
-  }
-  #main{
-    height: 70%;
-    display:flex  
-  }
-  #main>div{
-    vertical-align:top;
-    width: 100%;
-    background-color:white;
-  }
-  #main>div>div{
-    text-align:left;
-    vertical-align:top;
-    width:calc(100% - 4px); 
-    height:calc(100% - 10px);
-    background-color:beige;
-    margin:4px;
-  }
-  #About>ul>li,#Contact>ul>li{
-    list-style: none;
-  }
-  a{
-    text-decoration: none;
-  }
-  a:hover{
-    color: red;
-  }
+html,
+body,
+table {
+  height: 95%;
+  width: 95%;
+}
+
+table {
+  border: 3px solid white
+}
+
+div {
+  text-align: center;
+}
+
+#header,
+#footer {
+  background-color: aqua;
+  color: white;
+  height: 10%;
+}
+
+#navigation {
+  background-color: aliceblue;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+}
+
+#navigation>div {
+  display: inline;
+  height: 100%;
+  width: calc(100% / 3);
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#navigation>div:hover {
+  background-color: white;
+}
+
+#main {
+  height: 70%;
+  display: flex;
+  vertical-align: top;
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+#main>div {
+  text-align: left;
+  vertical-align: top;
+  height: calc(100% - 10px);
+  background-color: beige;
+  margin: 4px;
+}
+
+#Contact,
+#Links {
+  width: calc(15% - 4px);
+}
+
+#Content {
+  width: calc(70% - 4px);
+}
+
+#About>ul>li,
+#Contact>ul>li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
