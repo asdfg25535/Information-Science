@@ -80,3 +80,42 @@ a {
 a:hover {
   color: red;
 }
+
+#quiz-form {
+  max-width: 650px;
+}
+
+.quiz-question {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #c5c5b5;
+  border-radius: 6px;
+}
+
+.quiz-question legend {
+  font-weight: bold;
+}
+
+.quiz-question label {
+  display: block;
+  margin-top: 6px;
+}
+
+#quiz-form button {
+  margin-right: 8px;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+#quiz-result {
+  min-height: 24px;
+  font-weight: bold;
+}
+
+#quiz-result.correct-result {
+  color: #17632b;
+}
+
+#quiz-result.try-again-result {
+  color: #a33a24;
+}

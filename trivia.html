@@ -32,7 +32,36 @@
       </div>
 
       <div id="Content">
-        TRIVIA
+        <h2>Web Development Trivia</h2>
+        <p>Choose one answer for each question, then check your score.</p>
+
+        <form id="quiz-form" novalidate>
+          <fieldset class="quiz-question">
+            <legend>1. Which language gives a web page its basic structure?</legend>
+            <label><input type="radio" name="question1" value="html"> HTML</label>
+            <label><input type="radio" name="question1" value="css"> CSS</label>
+            <label><input type="radio" name="question1" value="javascript"> JavaScript</label>
+          </fieldset>
+
+          <fieldset class="quiz-question">
+            <legend>2. Which CSS feature can arrange items in a row or column?</legend>
+            <label><input type="radio" name="question2" value="flexbox"> Flexbox</label>
+            <label><input type="radio" name="question2" value="metadata"> Metadata</label>
+            <label><input type="radio" name="question2" value="console"> Console</label>
+          </fieldset>
+
+          <fieldset class="quiz-question">
+            <legend>3. What does JavaScript commonly add to a website?</legend>
+            <label><input type="radio" name="question3" value="interaction"> Interaction</label>
+            <label><input type="radio" name="question3" value="paper"> Paper size</label>
+            <label><input type="radio" name="question3" value="internet"> An internet connection</label>
+          </fieldset>
+
+          <button type="submit">Check Score</button>
+          <button type="reset">Try Again</button>
+        </form>
+
+        <p id="quiz-result" aria-live="polite"></p>
       </div>
 
       <div id="Contact">
