@@ -1,12 +1,7 @@
 html,
-body,
-table {
+body {
   height: 95%;
   width: 95%;
-}
-
-table {
-  border: 3px solid white
 }
 
 div {
@@ -79,6 +74,39 @@ a {
 
 a:hover {
   color: red;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+#portfolio-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+#portfolio-table caption {
+  padding: 8px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#portfolio-table th,
+#portfolio-table td {
+  padding: 10px;
+  border: 1px solid #b9b9a8;
+  text-align: left;
+}
+
+#portfolio-table th {
+  background-color: #d8e8e8;
+}
+
+#portfolio-table tbody tr:nth-child(even) {
+  background-color: #f4f4e8;
 }
 
 #quiz-form {
