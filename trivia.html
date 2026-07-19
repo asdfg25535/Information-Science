@@ -7,7 +7,7 @@
     <title>Pen</title>
   </head>
   <body>
-    <div id="header"><h1>HEADER</h1></div>
+    <div id="header"><h1>MY INFORMATION SCIENCE WEBSITE</h1></div>
     <div id="navigation">
       <div onclick="window.location.href='home.html';">
         HOME
@@ -70,17 +70,22 @@
             <label for="name">Name</label>
             <input id="name" name="name" type="text" required><br> 
             <label for="email">Email</label>  
-            <input id="email" name="email" type="email"> <br> 
-            <textarea rows="5" cols="20" name="message" style="width:90%">Enter Message Here</textarea><br> 
+            <input id="email" name="email" type="email" required><br>
+            <textarea rows="5" cols="20" name="message" style="width:90%" placeholder="Enter Message Here" required></textarea><br>
             I have confirmed the rule
-            <input type="checkbox">
+            <input type="checkbox" required>
             <button type="submit">Send</button>
           </form>
         </div>
     </div>
 
 
-    <div id="footer"><h1>FOOTER</h1></div>
+    <div id="footer">
+      <p>
+        Created July 2026 |
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
